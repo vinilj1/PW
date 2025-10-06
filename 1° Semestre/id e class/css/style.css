@@ -1,0 +1,58 @@
+#Naruto {
+   color: #ccab08;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 45px;
+}
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   background-color: #072638;
+   text-align: center;
+   border-radius: 15%;
+ }
+
+ #secao-sinopse {
+   background-color: #e6d00eb8;
+   padding: 15px;
+   border-radius: 8px rgb(166, 255, 0) solid;
+ }
+
+ .lista-itens {
+   list-style-type: circle;
+   padding-left: 30px;
+   font-size: 26px;
+   align-items: center;
+   display:-webkit-flex;
+ }
+
+ .item {
+   color: #555;
+ }
+ img {
+  margin: 1%;
+  width: 130px;
+ }
+ .secao{
+  background-color: rgba(0, 255, 179, 0.767);
+  padding: 15px;
+  border-radius: 8px rgb(166, 255, 0) solid;
+ }
+ .nome{
+text-align: center;
+ }
+ h2{
+  text-align: center;
+ }
+ #comeco{
+  width: 500px;
+  margin: auto;
+  display: block;
+ }
+ #personagens{
+  color: #c99015;
+ }
+ footer{
+text-align: center;
+
+ }

@@ -1,0 +1,39 @@
+body, h1{
+    background: #fff;
+    margin: 0px; /* espaçamento externo */
+}
+
+/*
+tag{
+    propriedade:valor;
+}
+*/
+
+section{
+    margin: 0 auto;
+    width: 60%; /* largura */
+    /*height: 400px; */ /* altura */
+    height: auto;
+    /*background: #999;*/
+}
+
+h1{
+    font-size: 70px; /*tamanho da fonte */
+}
+
+p{
+    text-align:left;
+    text-decoration:none;
+    color: rgb(115, 20, 210);
+    /*text-transform: uppercase;*/ /* texto em maiúsculo ou minúsculo */    
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700; /*700 ou 900 "negrito" */ 
+    font-style: normal;    
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+img{
+width: 50%;
+height: 50%;
+margin-right: 20%;
+margin-left: 20%;
+}
+body,p,h1,h2{
+margin-right: 10%;
+margin-left: 10%;
+}
+p{
+    text-align: center;
+}
+a{
+text-decoration: none;
+}
+footer{
+    background-color: rgb(255, 0, 0);
+}
