@@ -1,0 +1,289 @@
+body{
+    margin: 30px;
+    margin:5px;
+    display: block;
+    background-image: linear-gradient(to right, rgb(178, 178, 235), rgba(117, 218, 230, 0.63));
+}
+#lista-viagens{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 15px;
+    padding: 0px;
+    justify-content: space-between;
+}
+.item{
+    transition: 0.5s ease;
+    margin-bottom: 15px;
+}
+.item:hover{
+    transform: scale(1.20);
+}
+header{
+    display: block;
+    top: 0;
+    background-image: linear-gradient(to right, rgb(178, 178, 235), rgba(117, 218, 230, 0.63));
+}
+li{
+    display: flex;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: rgba(226, 67, 18, 0.774);
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    animation: 1.25s ease;
+}
+h1:hover{
+    color: #1013d8;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(85, 85, 237);
+    font-size: 20px;
+}
+#redes{
+    align-items: right;
+    display: flex;
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin: 15px;
+    padding: 0px;
+    justify-content: right;
+}
+#logo{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin: 15px;
+    padding: 0px;
+    justify-content: center;
+}
+.icones{
+    width: 35px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+    margin-top: 175px;
+    transition: 0.3s ease;
+}
+.icones:hover {
+    transform: scale(1.5);
+}
+#menu{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin: 15px;
+    padding: 0px;
+    justify-content: space-between;
+    height: 225px;
+}
+.menu{
+    margin-bottom: 10px;
+    transition: 0.25s ease;
+}
+.menu:hover{
+    transform: scale(1.5z);
+    color: #1060d8;
+}
+#imagem-tema{
+    background:url(../img/Osaka-Castle.jpeg);
+    width: 98vw;
+    height: 65vh;
+    
+}
+#texto-imagem-tema{
+    justify-content: center;
+    
+}
+section{
+    width: 100%;
+    height: 75%;
+}
+#guia{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(83, 83, 251);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: start;
+    margin: 35px;
+}
+b{
+    color: rgb(8, 34, 160) ;
+}
+figcaption{
+    display: flex;
+}
+figure{
+    width: 25%;
+    display: flex;
+    border-right: 2px solid #000;
+    text-align: center;
+    justify-content: center;
+}
+#pontos-turisticos{
+    display: flex;
+    border-radius: 300px;
+    float: left;
+    flex-direction: row;
+}
+.img-pontos{
+    width: 250px;
+    height: 250px;
+    border-radius: 35px;
+    text-align: center;
+}
+.texto-figure{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d2b2bdd;
+    margin-bottom: 35px;
+}
+#imagem-logo{
+    width: 25vw;
+    align-items: center;
+}
+#detalhes{
+    color: #1088d8;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 35px;
+    transition: 0.25s ease;
+}
+#detalhes:hover{
+    color: #0934a1e6;
+}
+#hotel{
+    display: flex;
+    background-color: #e7e1e1;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+h4{
+    font-size: 45px;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+h5{
+    font-size: 100px;
+    height: 500px;
+    margin-bottom: 75px;
+    margin-top: 150px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 25px #000000;
+}
+#informacoes-hotel{
+    flex-direction: column;
+    justify-content: left;
+}
+#informacoes{
+    font-size: 25px;
+    justify-content: left;
+}
+#imagem-hotel{
+    margin-right: 15px;
+    width: 75%;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: start;
+    margin: 35px;
+}
+#footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7e1e1;
+}
+.fonte-footer{
+    margin-top: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.label-footer{
+    margin-top: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#icone-menu{
+    margin-bottom: 150px;
+    animation: 1.5s ease;
+}
+#icone-menu:hover{
+    background-color: cadetblue;
+}
+@media (max-width: 768px) {
+    #pontos-turisticos {
+        flex-direction: column; /* empilha as figuras em coluna */
+        align-items: center; /* centraliza */
+    }
+
+    #pontos-turisticos figure {
+        width: 90%; /* ocupa quase toda a tela */
+        margin-bottom: 20px; /* espaço entre os blocos */
+    }
+}
+/* ================= MEDIA QUERY 2 ================= */
+/* Até 480px → Layout de celular pequeno */
+@media (max-width: 480px) {
+    #pontos-turisticos figure img {
+        height: 200px; /* reduz altura da imagem */
+    }
+
+    #pontos-turisticos figure figcaption p {
+        font-size: 14px; /* legenda menor para caber melhor */
+    }
+}
+@media (max-width: 400px) {
+    body {
+        flex-direction: column; /* empilha as figuras em coluna */
+        flex-wrap: wrap;
+        align-items: center; /* centraliza */
+    }
+}
+@media (max-width: 400px) {
+    h5 {
+        flex-direction: column; /* empilha as figuras em coluna */
+        flex-wrap: wrap;
+        align-items: center; /* centraliza */
+    }
+}
+@media (max-width: 768px) {
+    #footer {
+        flex-direction: column; /* empilha as figuras em coluna */
+        align-items: center; /* centraliza */
+    }
+
+    #footer {
+        width: 90%; /* ocupa quase toda a tela */
+        margin-bottom: 20px; /* espaço entre os blocos */
+    }
+}

@@ -1,0 +1,21 @@
+
+/*display flex propriedade do pai */
+.container{
+
+    display:flex;
+    gap:20px; /*distancia dos elementos */
+    background-color: antiquewhite;
+    height:600px;
+
+    flex-wrap: wrap;/*coloca os elementos na linha abaixo */
+}
+
+/*para visualizar o item adicionar alguma propriedade */
+
+.item{
+
+ width: 200px;
+ height:200px;
+ background-color: rgb(239, 241, 234);
+}
+

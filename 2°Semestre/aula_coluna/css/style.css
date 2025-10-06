@@ -1,0 +1,22 @@
+body{
+    background: transparent;
+}
+
+.coluna1de2{
+    float:left;
+    width:45%;
+    background: #f00;
+}
+
+.coluna1de3{
+    float:left;    
+    width:30%;
+    background: #ff0;
+}
+
+
+.coluna1de4{
+    float:left;
+    width:21%;
+    background: #00f;
+}

@@ -1,0 +1,29 @@
+.wrap{
+
+    display:flex;
+    gap:20px;
+    background-color: rgb(23, 106, 240);
+    height:600px;
+    flex-wrap: wrap;
+}
+.nowrap{
+    display:flex;
+    gap:20px;
+    background-color: rgb(23, 106, 240);
+    height:600px;
+    flex-wrap: nowrap;
+}
+.wrap-reverse{
+    display:flex;
+    gap:20px;
+    background-color: rgb(23, 106, 240);
+    height:600px;
+    flex-wrap: wrap-reverse;
+}
+.item{
+
+ width: 200px;
+ height:200px;
+ background-color: rgb(4, 219, 243);
+
+}

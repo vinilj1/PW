@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    border-radius: 20%;
+    height:auto;
+    width: 200px;
+    display:inline-block;
+}
+#cabeçalho{
+    width: 100%;
+    height:auto;
+}
+p{
+    text-align:center;
+}
+.imagem1de4{
+    float: left;
+    width: 25%;
+}
+.imagem1de3{
+    float: left;
+    width: 32%;
+}
+.imagem1de2{
+    float: left;
+    width: 50%;
+}

@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    background: url(../img/capa\ goku.webp);
+    width: 100%;
+    height: 99vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section2{
+    background: url(../img/goku.jfif);
+    width: 100%;
+    height: 99vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgba(203, 116, 17, 0.97);
+    text-align: center;
+}

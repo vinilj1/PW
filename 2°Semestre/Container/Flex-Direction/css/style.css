@@ -1,0 +1,36 @@
+.row{
+
+    display:flex;
+    gap:20px;
+    height:600px;
+    flex-direction: row;
+}
+.row-reverse{
+    display:flex;
+    gap:20px;
+   
+    height:600px;
+    flex-direction: row-reverse;
+}
+.column{
+    display:flex;
+    gap:20px;
+    height:1400px;
+    flex-direction:column;
+}
+.column-reverse{
+    display:flex;
+    gap:20px;
+    height:1400px;
+    flex-direction: column-reverse;
+}
+.item{
+
+ width: 200px;
+ height:200px;
+ background-color: rgb(4, 219, 243);
+
+}
+body{
+ background-color: rgb(23, 106, 240);
+}
